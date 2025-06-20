@@ -1,0 +1,21 @@
+[
+    {"type": "SpysMe", "method": "http"},
+    {"type": "SpysMe", "method": "socks"},
+    {"type": "ProxyScrape", "method": "http", "params": {"timeout": 1000, "country": "All"}},
+    {"type": "ProxyScrape", "method": "socks4", "params": {"timeout": 1000, "country": "All"}},
+    {"type": "ProxyScrape", "method": "socks5", "params": {"timeout": 1000, "country": "All"}},
+    {"type": "GeoNode", "method": "http", "params": {"limit": "500"}},
+    {"type": "GeoNode", "method": "socks", "params": {"limit": "500"}},
+    {"type": "GitHub", "method": "http", "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt"},
+    {"type": "GitHub", "method": "socks5", "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt"},
+    {"type": "GitHub", "method": "http", "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"},
+    {"type": "GitHub", "method": "socks4", "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt"},
+    {"type": "GitHub", "method": "socks5", "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"},
+    {"type": "GitHub", "method": "http", "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt"},
+    {"type": "GitHub", "method": "socks4", "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt"},
+    {"type": "GitHub", "method": "socks5", "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt"},
+    {"type": "Generic", "method": "http", "url": "https://www.proxy-list.download/api/v1/get?type=http"},
+    {"type": "Generic", "method": "https", "url": "https://www.proxy-list.download/api/v1/get?type=https"},
+    {"type": "Generic", "method": "socks4", "url": "https://www.proxy-list.download/api/v1/get?type=socks4"},
+    {"type": "Generic", "method": "socks5", "url": "https://www.proxy-list.download/api/v1/get?type=socks5"}
+]
