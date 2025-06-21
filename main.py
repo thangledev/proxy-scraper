@@ -336,7 +336,7 @@ async def run(config):
     start_time = time.time()
     args = argparse.Namespace(
         proxy="http",
-        output="proxies.txt"
+        output="output/proxies.txt"
     )
 
     # Validate đầu vào

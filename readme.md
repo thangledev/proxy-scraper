@@ -44,8 +44,8 @@ python main.py
 
 - Tool sẽ yêu cầu nhập cấu hình (timeout, retry, test site, v.v.). Nhấn Enter để dùng giá trị mặc định.
 - Kết quả:
-  - Proxy sống lưu vào `proxies.txt`.
-  - Proxy thô lưu vào `proxies.txt.raw`.
+  - Proxy sống lưu vào `output/proxies.txt`.
+  - Proxy thô lưu vào `output/proxies.txt.raw`.
 
 ### Cấu hình mẫu (`scrapers.json`)
 
@@ -101,6 +101,13 @@ python main.py
 - Tool giới hạn 20 batch check proxy để tránh quá tải.
 - Dùng `Ctrl+C` để dừng chương trình.
 
+### ⚠️ Về proxy sống:
+
+- Các proxy được lưu trong `output/proxies.txt` là **proxy đã được check sống tại thời điểm check**.
+- Tuy nhiên, vì đây là **proxy công khai (public/free)** nên:
+  - **Tỉ lệ die sau vài phút hoặc vài request là chuyện bình thường.**
+  - **Không đảm bảo độ ổn định lâu dài.**
+- Nếu cần proxy xịn, ổn định hơn → nên dùng dịch vụ proxy trả phí.
 
 # 🛠️ Cách chạy Proxy Scraper trên Termux
 
