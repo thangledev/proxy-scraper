@@ -122,8 +122,7 @@ cd proxy-scraper
 
   4. Chạy tool
 ```bash
-chmod +x run.sh
-./run.sh
+bash run.sh
 ```
 
 ## Author
