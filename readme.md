@@ -110,7 +110,7 @@ python main.py
 ```bash
 pkg install git python -y
 ```
-  2. Di chuyển cào thư mục download cho dễ
+  2. Di chuyển vào thư mục download cho dễ
 ```bash
 cd /sdcard/download/
 ```
