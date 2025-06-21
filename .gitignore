@@ -140,3 +140,4 @@ cython_debug/
 
 proxies.txt
 proxies.txt.raw
+build_exe

@@ -101,10 +101,26 @@ python main.py
 - Tool giới hạn 20 batch check proxy để tránh quá tải.
 - Dùng `Ctrl+C` để dừng chương trình.
 
-## Contributing
 
-- Fork repo, tạo PR với các cải tiến.
-- Báo lỗi qua Issues trên GitHub.
+# 🛠️ Cách chạy Proxy Scraper trên Termux
+
+🔥 Cài đặt & chạy tool
+
+  1. : Cài git và python nếu chưa có
+```bash
+pkg install git python -y
+```
+  2. : Clone Repo
+```bash
+git clone https://github.com/thangledev/proxy-scraper.git
+cd proxy-scraper
+```
+
+  3. : Chạy tool
+```bash
+chmod +x run.sh
+./run.sh
+```
 
 ## Author
 
