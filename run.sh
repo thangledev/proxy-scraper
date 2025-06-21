@@ -16,13 +16,3 @@ fi
 
 echo "🚀 Chạy tool proxy.py..."
 python main.py
-
-echo "📁 Di chuyển ra /sdcard/Download/ ..."
-
-termux-setup-storage -y 2>/dev/null
-
-mkdir -p /sdcard/Download/proxies
-cp proxies.txt /sdcard/Download/proxies/proxies.txt 2>/dev/null
-cp proxies.txt.raw /sdcard/Download/proxies/proxies.txt.raw 2>/dev/null
-
-echo "✅ Đã lưu vào: /sdcard/Download/proxies/"

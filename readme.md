@@ -106,17 +106,21 @@ python main.py
 
 🔥 Cài đặt & chạy tool
 
-  1. : Cài git và python nếu chưa có
+  1. Cài git và python nếu chưa có
 ```bash
 pkg install git python -y
 ```
-  2. : Clone Repo
+  2. Di chuyển cào thư mục download cho dễ
+```bash
+cd /sdcard/download/
+```
+  3. Clone Repo
 ```bash
 git clone https://github.com/thangledev/proxy-scraper.git
 cd proxy-scraper
 ```
 
-  3. : Chạy tool
+  4. Chạy tool
 ```bash
 chmod +x run.sh
 ./run.sh
